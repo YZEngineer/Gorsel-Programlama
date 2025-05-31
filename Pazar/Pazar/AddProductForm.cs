@@ -124,5 +124,10 @@ namespace Pazar
                 MessageBox.Show($"Bir hata oluştu: {ex.Message}", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void btnUploadImage_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

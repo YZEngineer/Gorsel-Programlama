@@ -20,6 +20,8 @@ namespace Pazar
         private CheckBox chkNewOnly;
         private CheckBox chkFavoritesOnly;
         private Button btnApplyFilter;
+        private TextBox txtSearch;
+        private Dictionary<string, CheckBox> categoryCheckboxes;
 
         public AllProductsForm(User user = null)
         {
@@ -64,21 +66,35 @@ namespace Pazar
             Panel filterPanel = new Panel
             {
                 Dock = DockStyle.Top,
-                Height = 100,
+                Height = 150,
                 BackColor = Color.WhiteSmoke
+            };
+
+            // Arama kutusu
+            Label lblSearch = new Label
+            {
+                Text = "Arama:",
+                Location = new Point(10, 15),
+                AutoSize = true
+            };
+
+            txtSearch = new TextBox
+            {
+                Location = new Point(80, 12),
+                Width = 200
             };
 
             // Minimum fiyat
             Label lblMinPrice = new Label
             {
                 Text = "Min Fiyat:",
-                Location = new Point(10, 15),
+                Location = new Point(290, 15),
                 AutoSize = true
             };
 
             txtMinPrice = new TextBox
             {
-                Location = new Point(80, 12),
+                Location = new Point(360, 12),
                 Width = 100
             };
 
@@ -86,49 +102,82 @@ namespace Pazar
             Label lblMaxPrice = new Label
             {
                 Text = "Max Fiyat:",
-                Location = new Point(190, 15),
+                Location = new Point(470, 15),
                 AutoSize = true
             };
 
             txtMaxPrice = new TextBox
             {
-                Location = new Point(260, 12),
+                Location = new Point(540, 12),
                 Width = 100
             };
 
             // Yeni ürün filtresi
             chkNewOnly = new CheckBox
             {
-                Text = "Sadece Yeni Ürünler",
+                Text = "Yeni",
                 Location = new Point(10, 50),
-                AutoSize = true
+                AutoSize = true,
+                Checked = false
             };
 
             // Favori ürün filtresi
             chkFavoritesOnly = new CheckBox
             {
-                Text = "Sadece Favorilerim",
+                Text = "Favorilerim",
                 Location = new Point(200, 50),
+                AutoSize = true,
+                Checked = false
+            };
+
+            // Kategori filtreleri
+            Label lblCategories = new Label
+            {
+                Text = "Kategoriler:",
+                Location = new Point(10, 80),
                 AutoSize = true
             };
+
+            // Kategori checkbox'larını oluştur
+            categoryCheckboxes = new Dictionary<string, CheckBox>();
+            string[] categories = { "Elektronik", "Giyim", "Ev & Yaşam", "Spor", "Kitap", "Diğer" };
+            int xPos = 100;
+            int yPos = 80;
+
+            foreach (string category in categories)
+            {
+                CheckBox chkCategory = new CheckBox
+                {
+                    Text = category,
+                    Location = new Point(xPos, yPos),
+                    AutoSize = true,
+                    Checked = true
+                };
+                categoryCheckboxes.Add(category, chkCategory);
+                filterPanel.Controls.Add(chkCategory);
+                xPos += 100;
+            }
 
             // Filtre uygula butonu
             btnApplyFilter = new Button
             {
                 Text = "Filtrele",
-                Location = new Point(400, 40),
+                Location = new Point(670, 80),
                 Width = 100,
                 Height = 30
             };
             btnApplyFilter.Click += BtnApplyFilter_Click;
 
             // Kontrolleri panele ekle
+            filterPanel.Controls.Add(lblSearch);
+            filterPanel.Controls.Add(txtSearch);
             filterPanel.Controls.Add(lblMinPrice);
             filterPanel.Controls.Add(txtMinPrice);
             filterPanel.Controls.Add(lblMaxPrice);
             filterPanel.Controls.Add(txtMaxPrice);
             filterPanel.Controls.Add(chkNewOnly);
             filterPanel.Controls.Add(chkFavoritesOnly);
+            filterPanel.Controls.Add(lblCategories);
             filterPanel.Controls.Add(btnApplyFilter);
 
             // Filtre panelini forma ekle
@@ -143,9 +192,17 @@ namespace Pazar
                 decimal minPrice = string.IsNullOrEmpty(txtMinPrice.Text) ? 0 : decimal.Parse(txtMinPrice.Text);
                 decimal maxPrice = string.IsNullOrEmpty(txtMaxPrice.Text) ? 1000000 : decimal.Parse(txtMaxPrice.Text);
 
+                // Arama metnini al
+                string searchText = txtSearch.Text.ToLower();
+
                 // Filtreleri uygula
                 var filteredProducts = products.Where(p =>
                 {
+                    // Arama filtresi
+                    bool searchMatch = string.IsNullOrEmpty(searchText) ||
+                        p.Name.ToLower().Contains(searchText) ||
+                        p.Description.ToLower().Contains(searchText);
+
                     // Fiyat aralığı filtresi
                     bool priceMatch = p.Price >= minPrice && p.Price <= maxPrice;
 
@@ -156,7 +213,11 @@ namespace Pazar
                     bool favoriteMatch = !chkFavoritesOnly.Checked || 
                         (currentUser != null && currentUser.IsProductFavorite(p.Id));
 
-                    return priceMatch && newProductMatch && favoriteMatch;
+                    // Kategori filtresi
+                    bool categoryMatch = !categoryCheckboxes.Any(c => c.Value.Checked) || 
+                        categoryCheckboxes[p.Category].Checked;
+
+                    return searchMatch && priceMatch && newProductMatch && favoriteMatch && categoryMatch;
                 }).ToList();
 
                 // Filtrelenmiş ürünleri göster

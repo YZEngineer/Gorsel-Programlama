@@ -82,7 +82,7 @@ namespace Pazar
                 Name = "Philips Kahve Makinesi",
                 Description = "Otomatik, Siyah",
                 Price = 2500.00m,
-                Category = "Ev Eşyaları",
+                Category = "Ev & Yaşam",
                 IsNew = true,
                 SellerId = 2,
                 CreateDate = DateTime.Now,

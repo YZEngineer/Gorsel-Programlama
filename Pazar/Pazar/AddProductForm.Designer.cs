@@ -36,108 +36,106 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            label4 = new Label();
             label5 = new Label();
             button1 = new Button();
             SuspendLayout();
             // 
             // richTextBox1
             // 
-            richTextBox1.Location = new Point(154, 169);
+            richTextBox1.Location = new Point(20, 181);
             richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(179, 54);
+            richTextBox1.Size = new Size(250, 80);
             richTextBox1.TabIndex = 0;
             richTextBox1.Text = "";
             richTextBox1.TextChanged += richTextBox1_TextChanged;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(154, 20);
+            textBox1.Location = new Point(20, 45);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 27);
+            textBox1.Size = new Size(250, 27);
             textBox1.TabIndex = 1;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(154, 62);
+            textBox2.Location = new Point(20, 110);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(125, 27);
+            textBox2.Size = new Size(250, 27);
             textBox2.TabIndex = 2;
             textBox2.TextChanged += textBox2_TextChanged;
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(154, 97);
+            textBox4.Location = new Point(453, 45);
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(125, 27);
+            textBox4.Size = new Size(250, 27);
             textBox4.TabIndex = 3;
             textBox4.TextChanged += textBox4_TextChanged;
             // 
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(154, 139);
+            checkBox1.Font = new Font("Arial", 10F);
+            checkBox1.Location = new Point(453, 110);
             checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(35, 24);
+            checkBox1.Size = new Size(102, 23);
             checkBox1.TabIndex = 5;
-            checkBox1.Text = " ";
-            checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.Text = "Yeni Ürün";
             checkBox1.CheckedChanged += checkBox1_CheckedChanged;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(84, 23);
+            label1.Font = new Font("Arial", 10F);
+            label1.Location = new Point(20, 20);
             label1.Name = "label1";
-            label1.Size = new Size(63, 20);
-            label1.TabIndex = 6;
-            label1.Text = "ürün adı";
+            label1.Size = new Size(78, 19);
+            label1.TabIndex = 16;
+            label1.Text = "Ürün Adı:";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(84, 65);
+            label2.Font = new Font("Arial", 10F);
+            label2.Location = new Point(20, 85);
             label2.Name = "label2";
-            label2.Size = new Size(42, 20);
-            label2.TabIndex = 7;
-            label2.Text = "fiyatı";
+            label2.Size = new Size(50, 19);
+            label2.TabIndex = 15;
+            label2.Text = "Fiyat:";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(84, 97);
+            label3.Font = new Font("Arial", 10F);
+            label3.Location = new Point(453, 20);
             label3.Name = "label3";
-            label3.Size = new Size(67, 20);
-            label3.TabIndex = 8;
-            label3.Text = "category";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(65, 139);
-            label4.Name = "label4";
-            label4.Size = new Size(69, 20);
-            label4.TabIndex = 9;
-            label4.Text = "Yeni ürün";
+            label3.Size = new Size(75, 19);
+            label3.TabIndex = 14;
+            label3.Text = "Kategori:";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(84, 190);
+            label5.Font = new Font("Arial", 10F);
+            label5.Location = new Point(20, 159);
             label5.Name = "label5";
-            label5.Size = new Size(70, 20);
-            label5.TabIndex = 10;
-            label5.Text = "Açıklama";
+            label5.Size = new Size(81, 19);
+            label5.TabIndex = 12;
+            label5.Text = "Açıklama:";
             // 
             // button1
             // 
-            button1.Location = new Point(154, 253);
+            button1.BackColor = Color.Green;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Arial", 10F, FontStyle.Bold);
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(423, 193);
             button1.Name = "button1";
-            button1.Size = new Size(94, 29);
+            button1.Size = new Size(280, 40);
             button1.TabIndex = 11;
-            button1.Text = "ürün ekle";
-            button1.UseVisualStyleBackColor = true;
+            button1.Text = "Ürün Ekle";
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // AddProductForm
@@ -147,7 +145,6 @@
             ClientSize = new Size(800, 450);
             Controls.Add(button1);
             Controls.Add(label5);
-            Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -157,7 +154,8 @@
             Controls.Add(textBox1);
             Controls.Add(richTextBox1);
             Name = "AddProductForm";
-            Text = "AddProductForm";
+            StartPosition = FormStartPosition.CenterParent;
+            Text = "Yeni Ürün Ekle";
             Load += AddProductForm_Load;
             ResumeLayout(false);
             PerformLayout();
@@ -173,7 +171,6 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private Label label4;
         private Label label5;
         private Button button1;
     }

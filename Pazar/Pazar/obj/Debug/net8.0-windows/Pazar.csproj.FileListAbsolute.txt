@@ -1,8 +1,6 @@
-C:\Users\krali\source\repos\Pzr\Pazar\Pazar\obj\Debug\net8.0-windows\Pazar..resources
 C:\Users\krali\source\repos\Pzr\Pazar\Pazar\obj\Debug\net8.0-windows\Pazar.AdminPanelForm.resources
 C:\Users\krali\source\repos\Pzr\Pazar\Pazar\obj\Debug\net8.0-windows\Pazar.LoginForm.resources
 C:\Users\krali\source\repos\Pzr\Pazar\Pazar\obj\Debug\net8.0-windows\Pazar.MainForm.resources
-C:\Users\krali\source\repos\Pzr\Pazar\Pazar\obj\Debug\net8.0-windows\Pazar.ProductDetailForm.resources
 C:\Users\krali\source\repos\Pzr\Pazar\Pazar\obj\Debug\net8.0-windows\Pazar.UserProfileForm.resources
 C:\Users\krali\source\repos\Pzr\Pazar\Pazar\obj\Debug\net8.0-windows\Pazar.csproj.GenerateResource.cache
 C:\Users\krali\source\repos\Pzr\Pazar\Pazar\obj\Debug\net8.0-windows\Pazar.GeneratedMSBuildEditorConfig.editorconfig
@@ -23,9 +21,9 @@ C:\Users\krali\source\repos\Pzr\Pazar\Pazar\obj\Debug\net8.0-windows\ref\Pazar.d
 C:\Users\krali\source\repos\Pzr\Pazar\Pazar\obj\Debug\net8.0-windows\Pazar.PasswordChange.resources
 C:\Users\krali\source\repos\Pzr\Pazar\Pazar\obj\Debug\net8.0-windows\Pazar.AllProductsForm.resources
 C:\Users\krali\source\repos\Pzr\Pazar\Pazar\obj\Debug\net8.0-windows\Pazar.EditProductForm.resources
-C:\Users\krali\source\repos\Pzr\Pazar\Pazar\obj\Debug\net8.0-windows\Pazar.DenemeForm.resources
 C:\Users\krali\source\repos\Pzr\Pazar\Pazar\obj\Debug\net8.0-windows\Pazar.AddProductForm.resources
 C:\Users\krali\source\repos\Pzr\Pazar\Pazar\obj\Debug\net8.0-windows\Pazar.MyProductForm.resources
 C:\Users\krali\source\repos\Pzr\Pazar\Pazar\obj\Debug\net8.0-windows\Pazar.UsersForm.resources
 C:\Users\krali\source\repos\Pzr\Pazar\Pazar\obj\Debug\net8.0-windows\Pazar.UserDetailsForm.resources
 C:\Users\krali\source\repos\Pzr\Pazar\Pazar\obj\Debug\net8.0-windows\Pazar.AnalizForm.resources
+C:\Users\krali\source\repos\Pzr\Pazar\Pazar\obj\Debug\net8.0-windows\Pazar.sourcelink.json

@@ -34,8 +34,6 @@
             button2 = new Button();
             label1 = new Label();
             label2 = new Label();
-            linkLabel1 = new LinkLabel();
-            button3 = new Button();
             radioButton1 = new RadioButton();
             radioButton2 = new RadioButton();
             SuspendLayout();
@@ -94,26 +92,6 @@
             label2.Text = "Şifre";
             label2.Click += label2_Click_1;
             // 
-            // linkLabel1
-            // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(663, 28);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(115, 20);
-            linkLabel1.TabIndex = 6;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "şifreGüncelleme";
-            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
-            // 
-            // button3
-            // 
-            button3.Location = new Point(663, 66);
-            button3.Name = "button3";
-            button3.Size = new Size(125, 29);
-            button3.TabIndex = 7;
-            button3.Text = "şifreGüncelleme";
-            button3.UseVisualStyleBackColor = true;
-            // 
             // radioButton1
             // 
             radioButton1.AutoSize = true;
@@ -143,8 +121,6 @@
             ClientSize = new Size(800, 450);
             Controls.Add(radioButton2);
             Controls.Add(radioButton1);
-            Controls.Add(button3);
-            Controls.Add(linkLabel1);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(button2);
@@ -165,8 +141,6 @@
         private Button button2;
         private Label label1;
         private Label label2;
-        private LinkLabel linkLabel1;
-        private Button button3;
         private RadioButton radioButton1;
         private RadioButton radioButton2;
     }

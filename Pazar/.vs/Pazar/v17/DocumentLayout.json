@@ -3,44 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|c:\\users\\krali\\source\\repos\\pzr\\pazar\\pazar\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|solutionrelative:pazar\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|c:\\users\\krali\\source\\repos\\pzr\\pazar\\pazar\\analizform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|solutionrelative:pazar\\analizform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|c:\\users\\krali\\source\\repos\\pzr\\pazar\\pazar\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|solutionrelative:pazar\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|c:\\users\\krali\\source\\repos\\pzr\\pazar\\pazar\\editproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|solutionrelative:pazar\\editproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|c:\\users\\krali\\source\\repos\\pzr\\pazar\\pazar\\analizform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\pazar\\analizform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|solutionrelative:pazar\\analizform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|c:\\users\\krali\\source\\repos\\pzr\\pazar\\pazar\\myproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|solutionrelative:pazar\\myproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|c:\\users\\krali\\source\\repos\\pzr\\pazar\\pazar\\allproductsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|solutionrelative:pazar\\allproductsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|c:\\users\\krali\\source\\repos\\pzr\\pazar\\pazar\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|solutionrelative:pazar\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\pazar\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|solutionrelative:pazar\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|c:\\users\\krali\\source\\repos\\pzr\\pazar\\pazar\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|solutionrelative:pazar\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|c:\\users\\krali\\source\\repos\\pzr\\pazar\\pazar\\analizform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|solutionrelative:pazar\\analizform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|c:\\users\\krali\\source\\repos\\pzr\\pazar\\pazar\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|solutionrelative:pazar\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|c:\\users\\krali\\source\\repos\\pzr\\pazar\\pazar\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|solutionrelative:pazar\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|c:\\users\\krali\\source\\repos\\pzr\\pazar\\pazar\\myproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|solutionrelative:pazar\\myproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|c:\\users\\krali\\source\\repos\\pzr\\pazar\\pazar\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4537003F-AA8B-4151-814B-EE8A9FBA7C10}|Pazar\\Pazar.csproj|solutionrelative:pazar\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +38,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MainForm.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\Pazar\\MainForm.cs",
               "RelativeDocumentMoniker": "Pazar\\MainForm.cs",
@@ -81,104 +65,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AddProductForm.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\Pazar\\AddProductForm.cs",
-              "RelativeDocumentMoniker": "Pazar\\AddProductForm.cs",
-              "ToolTip": "C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\Pazar\\AddProductForm.cs [Tasar\u0131m]",
-              "RelativeToolTip": "Pazar\\AddProductForm.cs [Tasar\u0131m]",
+              "Title": "AnalizForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\Pazar\\AnalizForm.Designer.cs",
+              "RelativeDocumentMoniker": "Pazar\\AnalizForm.Designer.cs",
+              "ToolTip": "C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\Pazar\\AnalizForm.Designer.cs",
+              "RelativeToolTip": "Pazar\\AnalizForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T18:39:50.769Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2025-05-31T19:55:21.652Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductManager.cs",
-              "DocumentMoniker": "C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\Pazar\\ProductManager.cs",
-              "RelativeDocumentMoniker": "Pazar\\ProductManager.cs",
-              "ToolTip": "C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\Pazar\\ProductManager.cs",
-              "RelativeToolTip": "Pazar\\ProductManager.cs",
-              "ViewState": "AgIAAOYAAAAAAAAAAAAiwPAAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "EditProductForm.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\Pazar\\EditProductForm.cs",
+              "RelativeDocumentMoniker": "Pazar\\EditProductForm.cs",
+              "ToolTip": "C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\Pazar\\EditProductForm.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Pazar\\EditProductForm.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:38:03.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T19:55:17.799Z",
+              "EditorCaption": " [Tasar\u0131m]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MyProductForm.cs",
-              "DocumentMoniker": "C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\Pazar\\MyProductForm.cs",
-              "RelativeDocumentMoniker": "Pazar\\MyProductForm.cs",
-              "ToolTip": "C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\Pazar\\MyProductForm.cs",
-              "RelativeToolTip": "Pazar\\MyProductForm.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBQAAAAjAAAAAAAAAA==",
+              "Title": "AllProductsForm.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\Pazar\\AllProductsForm.cs",
+              "RelativeDocumentMoniker": "Pazar\\AllProductsForm.cs",
+              "ToolTip": "C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\Pazar\\AllProductsForm.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Pazar\\AllProductsForm.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T15:49:41.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MyProductForm.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\Pazar\\MyProductForm.cs",
-              "RelativeDocumentMoniker": "Pazar\\MyProductForm.cs",
-              "ToolTip": "C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\Pazar\\MyProductForm.cs [Tasar\u0131m]",
-              "RelativeToolTip": "Pazar\\MyProductForm.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:32:47.874Z",
+              "WhenOpened": "2025-05-31T19:55:15.192Z",
               "EditorCaption": " [Tasar\u0131m]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\Pazar\\User.cs",
-              "RelativeDocumentMoniker": "Pazar\\User.cs",
-              "ToolTip": "C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\Pazar\\User.cs",
-              "RelativeToolTip": "Pazar\\User.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA/wAkAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T15:56:54.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UserManager.cs",
-              "DocumentMoniker": "C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\Pazar\\UserManager.cs",
-              "RelativeDocumentMoniker": "Pazar\\UserManager.cs",
-              "ToolTip": "C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\Pazar\\UserManager.cs",
-              "RelativeToolTip": "Pazar\\UserManager.cs",
-              "ViewState": "AgIAAKcAAAAAAAAAAAAmwLIAAAAAAAAAAAAAAA==",
+              "Title": "LoginForm.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\Pazar\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Pazar\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\Pazar\\LoginForm.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Pazar\\LoginForm.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T14:57:11.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AnalizForm.cs",
-              "DocumentMoniker": "C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\Pazar\\AnalizForm.cs",
-              "RelativeDocumentMoniker": "Pazar\\AnalizForm.cs",
-              "ToolTip": "C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\Pazar\\AnalizForm.cs",
-              "RelativeToolTip": "Pazar\\AnalizForm.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAADwvxwAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T14:45:27.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\Pazar\\MainForm.cs",
-              "RelativeDocumentMoniker": "Pazar\\MainForm.cs",
-              "ToolTip": "C:\\Users\\krali\\source\\repos\\Pzr\\Pazar\\Pazar\\MainForm.cs",
-              "RelativeToolTip": "Pazar\\MainForm.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAUwIAAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T14:44:37.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T19:54:05.796Z",
+              "EditorCaption": " [Tasar\u0131m]"
             }
           ]
         }
