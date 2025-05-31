@@ -192,8 +192,9 @@ namespace Pazar
             Panel panel = new Panel
             {
                 Width = 300,
-                
+
                 Height = 460,
+                
                 Margin = new Padding(10),
                 BorderStyle = BorderStyle.FixedSingle,
                 BackColor = Color.White
