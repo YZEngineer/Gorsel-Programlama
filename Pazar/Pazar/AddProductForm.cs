@@ -86,7 +86,7 @@ namespace Pazar
 
                 if (string.IsNullOrWhiteSpace(richTextBox1.Text))
                 {
-                    MessageBox.Show("Lütfen ürün açıklaması giriniz.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Lütfen ürün açıklamasını giriniz.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
 
